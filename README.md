@@ -13,7 +13,8 @@
 <p align="justify">
 O to.do é uma pequena aplicação onde o seu principal objetivo é organizar uma série de tasks. 
 É o primeiro desafio do treinamento Ignite, tendo como objetivo implementar algumas funcionalidades para treinar a manipulação de estados no React, 
-a partir de um template clonado.
+a partir de um template clonado. Essas funcionalidades foram criadas no arquivo "src/components/TaskList.tsx". <br><br>
+  <a href="https://www.notion.so/Desafio-01-Conceitos-do-React-51e4099a6e2f4d4bae94f9fe75bb769d">Link do Desafio</a>
 </p>
 
 <br>

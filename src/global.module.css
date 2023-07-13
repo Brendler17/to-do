@@ -20,13 +20,16 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   background: var(--gray-600);
   color: var(--gray-300);
   -webkit-font-smoothing: antialiased;
 }
 
-body, input, textarea, button {
+body,
+input,
+textarea,
+button {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 1rem;
@@ -35,4 +38,42 @@ body, input, textarea, button {
 .appContainer {
   max-width: 46rem;
   margin: 0 auto;
+}
+
+.tasksContainer {
+  margin-top: 4rem;
+}
+
+.tasksBoxHeader {
+  padding-bottom: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tasksBoxHeader strong {
+  font-size: 0.875rem;
+  color: var(--orange-300);
+}
+
+.tasksBoxHeader strong:last-child {
+  color: var(--orange-700);
+}
+
+.tasksBoxContent {
+  border-top: 1px solid var(--gray-500);
+  border-radius: 8px;
+}
+
+.taskContentEmpty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4rem 1.5rem;
+
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.taskContentEmpty svg {
+  margin-bottom: 1rem;
 }

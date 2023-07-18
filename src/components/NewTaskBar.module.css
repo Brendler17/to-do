@@ -12,6 +12,7 @@
   background: var(--gray-500);
   border: 1px solid var(--gray-700);
   border-radius: 8px;
+  color: var(--gray-200);
 }
 
 .taskBarContainer button {
@@ -28,4 +29,9 @@
   justify-content: center;
   gap: 0.5rem;
   cursor: pointer; 
+  transition: background-color 200ms;
+}
+
+.taskBarContainer button:hover {
+  background: var(--orange-700);
 }

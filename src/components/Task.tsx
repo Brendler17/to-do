@@ -1,4 +1,4 @@
-import { ChangeEvent, MouseEvent } from 'react';
+import { MouseEvent } from 'react';
 import { Trash } from '@phosphor-icons/react';
 import styles from './Task.module.css';
 
@@ -14,14 +14,12 @@ export function Task({
   id,
   title,
   isComplete,
-  //checkTask,
+  checkTask,
   removeTask }
   : TaskProps) {
 
-  function handleCheckTask(event: ChangeEvent<HTMLInputElement>) {
-    // event.preventDefault();
-    // checkTask(id);
-    console.log(event.target.checked);
+  function handleCheckTask() {
+    checkTask(id);
   }
 
   function handleRemoveTask(event: MouseEvent<HTMLButtonElement>) {
@@ -31,11 +29,11 @@ export function Task({
 
   return (
     <div className={styles.taskContainer}>
-      <input type="radio" onChange={handleCheckTask} checked={isComplete} />
-      <p>{title}</p>
+      <input type="checkbox" onChange={handleCheckTask} checked={isComplete} />
+      <p className={isComplete ? styles.taskTitleCompleted : styles.taskTitle}>{title}</p>
       <button title="Deletar Task" onClick={handleRemoveTask}>
         <Trash size={20} />
       </button>
-    </div>
+    </div >
   )
 }

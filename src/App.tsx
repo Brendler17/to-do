@@ -34,7 +34,6 @@ export function App() {
         }
       ) : (task)
     ));
-    console.log(newTasks);
     setTasks(newTasks);
   }
 
@@ -54,8 +53,8 @@ export function App() {
         <NewTaskBar createTask={createTask} />
         <div className={styles.tasksContainer}>
           <div className={styles.tasksBoxHeader}>
-            <strong>Tarefas Criadas {totalTasks}</strong>
-            <strong>Concluídas {totalTasksCompleted} de {totalTasks}</strong>
+            <strong>Tarefas Criadas <span>{totalTasks}</span></strong>
+            <strong>Concluídas <span>{totalTasksCompleted} de {totalTasks}</span></strong>
           </div>
           <div className={styles.tasksBoxContent}>
             {tasksIsEmpty ? (

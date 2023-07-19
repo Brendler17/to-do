@@ -22,7 +22,7 @@ export function App() {
       title: taskTitle,
       isComplete: false
     }
-    setTasks([...tasks, newTask]);
+    setTasks([newTask, ...tasks]);
   }
 
   function checkTask(taskId: number) {

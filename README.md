@@ -2,7 +2,7 @@
   <img alt="Rocketseat Education" src="https://avatars.githubusercontent.com/u/69590972?s=200&v=4" width="100px" />
 </p>
 
-<h1 align="center">to.do</h1>
+<h1 align="center">ToDo</h1>
 
 <h4 align="center">
   
@@ -35,7 +35,7 @@ O ToDo é uma pequena aplicação onde o seu principal objetivo é organizar uma
 
 <p align="left">
 <a href="https://vitejs.dev">
- <img alt="vitejs" title="vite" src="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white" />
+ <img alt="vitejs" title="vite" src="https://img.shields.io/static/v1?label=Vite&message=Build%20Tool&style=social&logo=Vite&logoColor=0088CC" />
 </a>
 
 <br/>
@@ -47,7 +47,7 @@ O ToDo é uma pequena aplicação onde o seu principal objetivo é organizar uma
 <br/>
 
 <a href="https://github.com/css-modules/css-modules">
- <img alt="cssmodules" title="cssmodules" src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" />
+ <img alt="cssmodules" title="cssmodules" src="https://img.shields.io/static/v1?label=Css&message=CSS%20Modules&style=social&logo=css3&logoColor=27609E" />
 </a>
 
 <br/>
@@ -57,6 +57,13 @@ O ToDo é uma pequena aplicação onde o seu principal objetivo é organizar uma
  <img alt="figma" title="figma" src="https://img.shields.io/static/v1?label=Figma&message=Project%20Prototyping&style=social&logo=Figma&logoColor=F24E1E" />
 </a>
 
+<br/>
+
+<a href="https://phosphoricons.com">
+ <img alt="phosphoricons" title="phosphoricons" src="https://img.shields.io/static/v1?label=PhosphorIcons&message=Icons&style=social&logo=phosphoricons&logoColor=F24E1E" />
+</a>
+
+<br/>
 
 <h2 id="func">⚔ Funcionalidades Implementadas</h2>
 
@@ -78,7 +85,7 @@ O ToDo é uma pequena aplicação onde o seu principal objetivo é organizar uma
 > 📝 Clonando o repositório e entrando no diretório criado.
 
 ```shell
-git clone https://github.com/Brendler17/fire-feed.git && cd fire-feed
+git clone https://github.com/Brendler17/to-do.git && cd to-do
 ```
 
 > 📝 Baixando / Instalando dependências.
